@@ -13,9 +13,9 @@ public class Exercicio1 {
         int escolhaMenu;
 
         System.out.println("***********************************************");
-        System.out.println("1 - Adicionar Cliente na fila");
+        System.out.println("1 - Adicionar cliente na fila");
         System.out.println("2 - Listar todos os Clientes");
-        System.out.println("3 - Retirar Cliente da Fila");
+        System.out.println("3 - Retirar cliente da Fila");
         System.out.println("0 - Sair");
         System.out.println("***********************************************");
         System.out.println("Entre com a opção desejada: ");
@@ -27,7 +27,7 @@ public class Exercicio1 {
             input.nextLine();
 
             if (escolhaMenu == 1){
-                System.out.print("Digite o nome do Cliente: ");
+                System.out.print("Digite o nome do cliente: ");
                 String nomeCliente = input.nextLine();
                 filaBanco.add(nomeCliente);
                 System.out.println();
@@ -41,7 +41,7 @@ public class Exercicio1 {
                     System.out.println(iFilaBanco.next());
                 }
                 System.out.println();
-                System.out.println("Cliente adicionado!");
+                System.out.println("cliente adicionado!");
                 System.out.println();
             }
             if (escolhaMenu == 2){
